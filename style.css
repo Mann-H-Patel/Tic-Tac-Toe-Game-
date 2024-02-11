@@ -6,7 +6,7 @@
 }
 
 body{                   /*This Is For Body */
-    background-color: #000000;
+    background-color: #F28585;
     text-align: center;
     color: white;
 }
@@ -36,25 +36,26 @@ body{                   /*This Is For Body */
     border-radius: 0.4rem;
     font-size: 80px;
     color: blue;
-    background-color: rgb(255, 255, 255);
+    background-color: #FFFC9B;
 }
 
 #reset{                 /*This Is For Reset Button*/
-    background-color: #40A2E3;
+    background-color: #B7E5B4;
     color: white;
-    width: 100px;
+    width: 120px;
     height: 50px;
     border: none;
     font-size: 30px;
-    border-radius: 2px;
+    border-radius: 8px;
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: 2px;
 }
 
 #msg{
-    color: #ffffc7;
+    color: rgb(246, 255, 0);
     font-size: 20px;
     font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 2px;
   }
   
 .msg-box{
@@ -81,6 +82,14 @@ body{                   /*This Is For Body */
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: 2px;
   }
+
+.details{
+    color: rgb(246, 255, 0);
+}
+
+.details a{
+    color: rgb(255, 191, 0);
+}
 
 
                         /*This Is Media Query For Device Less Than 312 Width*/
