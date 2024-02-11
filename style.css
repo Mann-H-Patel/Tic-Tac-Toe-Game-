@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{                   /*This Is For Body */
+    background-color: #000000;
+    text-align: center;
+    color: white;
+}
+
+.main-container{        /*This Is For Main-Container*/    
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{             /*This Is For Container*/
+    width: 380px;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+}
+
+.box{                   /*This Is For Box*/
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 80px;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+}
+
+#reset{                 /*This Is For Reset Button*/
+    background-color: #40A2E3;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-size: 30px;
+    border-radius: 2px;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 2px;
+}
+
+#msg{
+    color: #ffffc7;
+    font-size: 80px;
+    font-family: 'Luckiest Guy', cursive;
+  }
+  
+.msg-box{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+ }
+  
+.hide{
+    display: none;
+}
+
+#new-game{
+    background-color: #40A2E3;
+    color: white;
+    width: 100px;
+    height: 80px;
+    border: none;
+    font-size: 30px;
+    border-radius: 2px;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 2px;
+  }
+
+
+                        /*This Is Media Query For Device Less Than 312 Width*/
+@media only screen and (max-width: 312px){
+    /* For mobile phones: */
+    .box{
+        width: 90px;
+        height: 100px;
+    }
+}
