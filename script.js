@@ -2,7 +2,7 @@ let boxes = document.querySelectorAll(".box");
 let reset = document.getElementById("reset");
 let newGameBtn = document.getElementById("new-game");
 let msgBox = document.querySelector(".msg-box");
-let msg = document.getElementById("#msg");
+let msg = document.getElementById("msg");
 
 let turnX = true;
 let count = 0;
